@@ -1,0 +1,1881 @@
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 11180.
+[INFO] Driver listening on port: 19260
+[INFO] Rate limiting set up at 500MB distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 11181
+[INFO] Starting internal-dpl-aod-reader on pid 11182
+[INFO] Starting internal-dpl-aod-index-builder on pid 11183
+[INFO] Starting internal-dpl-aod-spawner on pid 11184
+[INFO] Starting iterate-muons on pid 11185
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 11186
+[INFO] Starting iterate-muons-sparse on pid 11187
+[INFO] Redeployment of configuration done.
+[11184:internal-dpl-aod-spawner]: [INFO] Instrumenting crash signals
+[11184:internal-dpl-aod-spawner]: [INFO] Spawing new device internal-dpl-aod-spawner in process with pid 11184
+[11184:internal-dpl-aod-spawner]: [09:45:43][INFO] 
+[11184:internal-dpl-aod-spawner]:       ______      _    _______  _________ 
+[11184:internal-dpl-aod-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.52
+[11184:internal-dpl-aod-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[11184:internal-dpl-aod-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[11184:internal-dpl-aod-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2022 GSI
+[11184:internal-dpl-aod-spawner]: 
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] Starting FairMQ state machine --> IDLE
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] IDLE ---> INITIALIZING DEVICE
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] INITIALIZED ---> BINDING
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] BINDING ---> BOUND
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] BOUND ---> CONNECTING
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] CONNECTING ---> DEVICE READY
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] DEVICE READY ---> INITIALIZING TASK
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] INITIALIZING TASK ---> READY
+[11184:internal-dpl-aod-spawner]: [09:45:43][STATE] READY ---> RUNNING
+[11184:internal-dpl-aod-spawner]: [09:45:43][INFO] fair::mq::Device running...
+[11184:internal-dpl-aod-spawner]: [09:45:43][INFO] LHCPeriod is not available, using current month SEP
+[11184:internal-dpl-aod-spawner]: [09:45:43][INFO] Correctly handshaken websocket connection.
+[INFO] Offering 100MB out of 500 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:100 = offered:100 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 100MB out of 400 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:200 = offered:200 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 100MB out of 300 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:300 = offered:300 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 100MB out of 200 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:400 = offered:400 - (expired:0 + consumed:0) / 1000000
+[INFO] Offering 100MB out of 100 to internal-dpl-aod-reader
+[INFO] unusedOfferedMemory:500 = offered:500 - (expired:0 + consumed:0) / 1000000
+[INFO] We do not have enough shared memory (0MB) to offer 50MB
+[INFO] Controller for internal-dpl-aod-reader not yet available.
+[11181:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[11181:internal-dpl-clock]: [INFO] Spawing new device internal-dpl-clock in process with pid 11181
+[11181:internal-dpl-clock]: [09:45:43][INFO] 
+[11181:internal-dpl-clock]:       ______      _    _______  _________ 
+[11181:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.52
+[11181:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[11181:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[11181:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2022 GSI
+[11181:internal-dpl-clock]: 
+[11181:internal-dpl-clock]: [09:45:43][STATE] Starting FairMQ state machine --> IDLE
+[11181:internal-dpl-clock]: [09:45:43][STATE] IDLE ---> INITIALIZING DEVICE
+[11181:internal-dpl-clock]: [09:45:43][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[11181:internal-dpl-clock]: [09:45:43][STATE] INITIALIZED ---> BINDING
+[11181:internal-dpl-clock]: [09:45:43][STATE] BINDING ---> BOUND
+[11181:internal-dpl-clock]: [09:45:43][STATE] BOUND ---> CONNECTING
+[11181:internal-dpl-clock]: [09:45:43][STATE] CONNECTING ---> DEVICE READY
+[11181:internal-dpl-clock]: [09:45:43][STATE] DEVICE READY ---> INITIALIZING TASK
+[11181:internal-dpl-clock]: [09:45:43][STATE] INITIALIZING TASK ---> READY
+[11181:internal-dpl-clock]: [09:45:43][STATE] READY ---> RUNNING
+[11181:internal-dpl-clock]: [09:45:43][INFO] fair::mq::Device running...
+[11181:internal-dpl-clock]: [09:45:43][INFO] LHCPeriod is not available, using current month SEP
+[11182:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
+[11182:internal-dpl-aod-reader]: [INFO] Spawing new device internal-dpl-aod-reader in process with pid 11182
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] 
+[11182:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[11182:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.52
+[11182:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[11182:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[11182:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2022 GSI
+[11182:internal-dpl-aod-reader]: 
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] Starting FairMQ state machine --> IDLE
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] IDLE ---> INITIALIZING DEVICE
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] INITIALIZED ---> BINDING
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] BINDING ---> BOUND
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] BOUND ---> CONNECTING
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] CONNECTING ---> DEVICE READY
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] DEVICE READY ---> INITIALIZING TASK
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] INITIALIZING TASK ---> READY
+[11182:internal-dpl-aod-reader]: [09:45:43][STATE] READY ---> RUNNING
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] fair::mq::Device running...
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] LHCPeriod is not available, using current month SEP
+[11183:internal-dpl-aod-index-builder]: [INFO] Instrumenting crash signals
+[11183:internal-dpl-aod-index-builder]: [INFO] Spawing new device internal-dpl-aod-index-builder in process with pid 11183
+[11183:internal-dpl-aod-index-builder]: [09:45:43][INFO] 
+[11183:internal-dpl-aod-index-builder]:       ______      _    _______  _________ 
+[11183:internal-dpl-aod-index-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.52
+[11183:internal-dpl-aod-index-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[11183:internal-dpl-aod-index-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[11183:internal-dpl-aod-index-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2022 GSI
+[11183:internal-dpl-aod-index-builder]: 
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] Starting FairMQ state machine --> IDLE
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] IDLE ---> INITIALIZING DEVICE
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] INITIALIZED ---> BINDING
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] BINDING ---> BOUND
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] BOUND ---> CONNECTING
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] CONNECTING ---> DEVICE READY
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] DEVICE READY ---> INITIALIZING TASK
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] INITIALIZING TASK ---> READY
+[11183:internal-dpl-aod-index-builder]: [09:45:43][STATE] READY ---> RUNNING
+[11183:internal-dpl-aod-index-builder]: [09:45:43][INFO] fair::mq::Device running...
+[11183:internal-dpl-aod-index-builder]: [09:45:43][INFO] LHCPeriod is not available, using current month SEP
+[11185:iterate-muons]: [INFO] Instrumenting crash signals
+[11185:iterate-muons]: [INFO] Spawing new device iterate-muons in process with pid 11185
+[11185:iterate-muons]: [09:45:43][INFO] 
+[11185:iterate-muons]:       ______      _    _______  _________ 
+[11185:iterate-muons]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.52
+[11185:iterate-muons]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[11185:iterate-muons]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[11185:iterate-muons]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2022 GSI
+[11185:iterate-muons]: 
+[11185:iterate-muons]: [09:45:43][STATE] Starting FairMQ state machine --> IDLE
+[11185:iterate-muons]: [09:45:43][STATE] IDLE ---> INITIALIZING DEVICE
+[11185:iterate-muons]: [09:45:43][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[11185:iterate-muons]: [09:45:43][STATE] INITIALIZED ---> BINDING
+[11185:iterate-muons]: [09:45:43][STATE] BINDING ---> BOUND
+[11185:iterate-muons]: [09:45:43][STATE] BOUND ---> CONNECTING
+[11185:iterate-muons]: [09:45:43][STATE] CONNECTING ---> DEVICE READY
+[11185:iterate-muons]: [09:45:43][STATE] DEVICE READY ---> INITIALIZING TASK
+[11185:iterate-muons]: [09:45:43][STATE] INITIALIZING TASK ---> READY
+[11185:iterate-muons]: [09:45:43][STATE] READY ---> RUNNING
+[11185:iterate-muons]: [09:45:43][INFO] fair::mq::Device running...
+[11185:iterate-muons]: [09:45:43][INFO] LHCPeriod is not available, using current month SEP
+[11186:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[11186:internal-dpl-injected-dummy-sink]: [INFO] Spawing new device internal-dpl-injected-dummy-sink in process with pid 11186
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][INFO] 
+[11186:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[11186:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.52
+[11186:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[11186:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[11186:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2022 GSI
+[11186:internal-dpl-injected-dummy-sink]: 
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] Starting FairMQ state machine --> IDLE
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] IDLE ---> INITIALIZING DEVICE
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] INITIALIZED ---> BINDING
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] BINDING ---> BOUND
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] BOUND ---> CONNECTING
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] CONNECTING ---> DEVICE READY
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] DEVICE READY ---> INITIALIZING TASK
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] INITIALIZING TASK ---> READY
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][STATE] READY ---> RUNNING
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][INFO] fair::mq::Device running...
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][INFO] LHCPeriod is not available, using current month SEP
+[11187:iterate-muons-sparse]: [INFO] Instrumenting crash signals
+[11187:iterate-muons-sparse]: [INFO] Spawing new device iterate-muons-sparse in process with pid 11187
+[11187:iterate-muons-sparse]: [09:45:43][INFO] 
+[11187:iterate-muons-sparse]:       ______      _    _______  _________ 
+[11187:iterate-muons-sparse]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.4.52
+[11187:iterate-muons-sparse]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[11187:iterate-muons-sparse]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[11187:iterate-muons-sparse]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2022 GSI
+[11187:iterate-muons-sparse]: 
+[11187:iterate-muons-sparse]: [09:45:43][STATE] Starting FairMQ state machine --> IDLE
+[11187:iterate-muons-sparse]: [09:45:43][STATE] IDLE ---> INITIALIZING DEVICE
+[11187:iterate-muons-sparse]: [09:45:43][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[11187:iterate-muons-sparse]: [09:45:43][STATE] INITIALIZED ---> BINDING
+[11187:iterate-muons-sparse]: [09:45:43][STATE] BINDING ---> BOUND
+[11187:iterate-muons-sparse]: [09:45:43][STATE] BOUND ---> CONNECTING
+[11187:iterate-muons-sparse]: [09:45:43][STATE] CONNECTING ---> DEVICE READY
+[11187:iterate-muons-sparse]: [09:45:43][STATE] DEVICE READY ---> INITIALIZING TASK
+[11187:iterate-muons-sparse]: [09:45:43][STATE] INITIALIZING TASK ---> READY
+[11187:iterate-muons-sparse]: [09:45:43][STATE] READY ---> RUNNING
+[11187:iterate-muons-sparse]: [09:45:43][INFO] fair::mq::Device running...
+[11187:iterate-muons-sparse]: [09:45:43][INFO] LHCPeriod is not available, using current month SEP
+[INFO] Controller for internal-dpl-aod-reader now available.
+[11181:internal-dpl-clock]: [09:45:43][INFO] Correctly handshaken websocket connection.
+[11183:internal-dpl-aod-index-builder]: [09:45:43][INFO] Correctly handshaken websocket connection.
+[11186:internal-dpl-injected-dummy-sink]: [09:45:43][INFO] Correctly handshaken websocket connection.
+[11187:iterate-muons-sparse]: [09:45:43][INFO] Correctly handshaken websocket connection.
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] Correctly handshaken websocket connection.
+[11185:iterate-muons]: [09:45:43][INFO] Correctly handshaken websocket connection.
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] Received 100MB shared memory offer
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] Received 100MB shared memory offer
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] Received 100MB shared memory offer
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] Received 100MB shared memory offer
+[11182:internal-dpl-aod-reader]: [09:45:43][INFO] Received 100MB shared memory offer
+[INFO] Offer consumed so far 556384
+[INFO] Offer consumed so far 1126120
+[INFO] unusedOfferedMemory:499 = offered:500 - (expired:0 + consumed:1) / 1000000
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.468912MB for table AOD/BC.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.06972MB for table AOD/COLLISION.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.017752MB for table AOD/FWDTRACK.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.481752MB for table AOD/BC.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.069152MB for table AOD/COLLISION.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.018832MB for table AOD/FWDTRACK.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.487672MB for table AOD/BC.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.06848MB for table AOD/COLLISION.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.017752MB for table AOD/FWDTRACK.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.484792MB for table AOD/BC.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.065688MB for table AOD/COLLISION.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.018216MB for table AOD/FWDTRACK.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.489432MB for table AOD/BC.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.070944MB for table AOD/COLLISION.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Creating 0.016664MB for table AOD/FWDTRACK.
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Read info: lfn=forAliceO2/AO2D.root,size=145628498,total_df=5,read_df=5,read_bytes=616037,read_calls=305,io_time=0.5,wait_time=0.0
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] No input files left to read for reader 0!
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-injected-dummy-sink
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-index-builder
+[11182:internal-dpl-aod-reader]: [09:45:44][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-reader_to_internal-dpl-aod-spawner
+[11183:internal-dpl-aod-index-builder]: [09:45:44][INFO] Creating 0.187816MB for table IDX/MA_BCCOL_SP.
+[11183:internal-dpl-aod-index-builder]: [09:45:44][INFO] Creating 0.192952MB for table IDX/MA_BCCOL_SP.
+[11183:internal-dpl-aod-index-builder]: [09:45:44][INFO] Creating 0.19532MB for table IDX/MA_BCCOL_SP.
+[11183:internal-dpl-aod-index-builder]: [09:45:44][INFO] Creating 0.194168MB for table IDX/MA_BCCOL_SP.
+[11183:internal-dpl-aod-index-builder]: [09:45:44][INFO] Creating 0.196024MB for table IDX/MA_BCCOL_SP.
+[11183:internal-dpl-aod-index-builder]: [09:45:44][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-index-builder_to_iterate-muons
+[11183:internal-dpl-aod-index-builder]: [09:45:44][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-index-builder_to_iterate-muons-sparse
+[11184:internal-dpl-aod-spawner]: /mnt/mesos/sandbox/sandbox/jenkins/workspace/DailyBuilds/DailyO2-ubuntu2004/daily-tags.169cwWK4XF/BUILD/1352814dc4fb4684258e31a97ac347d4c8846a65/arrow/src_tmp/cpp/src/gandiva/cache.cc:42: Creating gandiva cache with capacity: 500
+[11184:internal-dpl-aod-spawner]: /mnt/mesos/sandbox/sandbox/jenkins/workspace/DailyBuilds/DailyO2-ubuntu2004/daily-tags.169cwWK4XF/BUILD/1352814dc4fb4684258e31a97ac347d4c8846a65/arrow/src_tmp/cpp/src/gandiva/engine.cc:109: Detected CPU Name : tigerlake
+[11184:internal-dpl-aod-spawner]: /mnt/mesos/sandbox/sandbox/jenkins/workspace/DailyBuilds/DailyO2-ubuntu2004/daily-tags.169cwWK4XF/BUILD/1352814dc4fb4684258e31a97ac347d4c8846a65/arrow/src_tmp/cpp/src/gandiva/engine.cc:110: Detected CPU Features: +sse2 -tsxldtrk +cx16 +sahf -tbm +avx512ifma +sha +gfni -fma4 +vpclmulqdq +prfchw +bmi2 -cldemote +fsgsbase -ptwrite -amx-tile -uintr +popcnt +widekl +aes +avx512bitalg +movdiri +xsaves -avx512er -avxvnni +avx512vnni -amx-bf16 +avx512vpopcntdq -pconfig +clwb +avx512f +xsavec -clzero +pku +mmx -lwp +rdpid -xop +rdseed -waitpkg +kl +movdir64b -sse4a +avx512bw +clflushopt +xsave +avx512vbmi2 +64bit +avx512vl -serialize -hreset +invpcid +avx512cd +avx +vaes -avx512bf16 +cx8 +fma -rtm +bmi -enqcmd +rdrnd -mwaitx +sse4.1 +sse4.2 +avx2 +fxsr -wbnoinvd +sse +lzcnt +pclmul -prefetchwt1 +f16c +ssse3 -sgx +shstk +cmov +avx512vbmi -amx-int8 +movbe +avx512vp2intersect +xsaveopt +avx512dq +adx -avx512pf +sse3
+[11184:internal-dpl-aod-spawner]: [09:45:44][INFO] Creating 0.002904MB for table DYN/FWDTRACK.
+[11184:internal-dpl-aod-spawner]: [09:45:44][INFO] Creating 0.003072MB for table DYN/FWDTRACK.
+[11184:internal-dpl-aod-spawner]: [09:45:44][INFO] Creating 0.002904MB for table DYN/FWDTRACK.
+[11184:internal-dpl-aod-spawner]: [09:45:44][INFO] Creating 0.002976MB for table DYN/FWDTRACK.
+[11184:internal-dpl-aod-spawner]: [09:45:44][INFO] Creating 0.002736MB for table DYN/FWDTRACK.
+[11184:internal-dpl-aod-spawner]: [09:45:44][INFO] Sending end-of-stream message to channel from_internal-dpl-aod-spawner_to_iterate-muons
+[INFO] Offer consumed so far 1700024
+[INFO] Offer consumed so far 2268720
+[INFO] unusedOfferedMemory:498 = offered:500 - (expired:0 + consumed:2) / 1000000
+[INFO] Offer consumed so far 2845760
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.578659 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.204977 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.659264 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.626936 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.187492 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.942669 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.134060 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.692093 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.43
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.363686 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.306290 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.198597 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.79
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.504795 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.663269 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 20.662079 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.590668 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -11.627579 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 13.606003 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.660872 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.203873 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.45
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -20.061951 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 15.198471 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.35
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.389618 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.064522 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.007278 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.985428 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.584373 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.466843 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.15
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.773781 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.860840 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.267593 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.547348 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.584034 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.317008 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.850044 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.787987 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -124.988892 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.628960 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.591423 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.753395 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.172245 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.253815 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.732489 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.356846 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.131752 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.094168 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.865822 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.187172 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 47.286194 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.931019 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.402878 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -11.077728 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.710882 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.199631 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.36
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.691002 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.394386 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.859638 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.70
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.460960 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 45.430847 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.023533 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.893883 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.256126 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.645435 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.847313 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.191236 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.65
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.248707 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.801971 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.330261 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.717026 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.065193 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -70.651978 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.58
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.158066 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.495455 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.405815 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.69
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.271576 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.129608 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.870499 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.655283 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.878815 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.326939 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.818840 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.180756 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.850197 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.88
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.690750 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.694412 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.640335 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.643585 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.446278 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.016907 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.351398 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.962578 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.038696 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.876755 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.248520 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.832756 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.280262 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.698227 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.16
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.576027 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 20.224823 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.940605 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.206963 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.834419 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.645988 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.701675 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.571142 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.408340 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 127.770264 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.466568 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.26
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.211206 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -12.803513 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.189774 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.440598 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.675301 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.218405 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.389887 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.693817 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 21.450470 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 11.090240 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.556110 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 11.959946 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.112267 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.475159 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.294700 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.837276 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.482637 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.551956 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 78.832275 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.129349 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.654633 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.779076 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.915085 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -33.266541 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 2.86
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 49.820862 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -59.375671 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -82.118652 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -30.094360 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.345322 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.564423 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.170410 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.432567 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.709951 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.163303 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.845387 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.754799 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.346407 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.668625 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.588058 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.867294 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.633621 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.662910 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.757767 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.261585 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.833111 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.648285 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.393635 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.372898 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.003799 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.618179 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.70
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.317842 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.770271 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.50
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.840302 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.408348 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.790565 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.862938 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.466537 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -30.612396 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.727913 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.364544 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.986229 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.116999 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.401945 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.764080 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.502411 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.398140 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.595367 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.191231 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.709146 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.307884 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.94
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.409195 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.482773 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.417290 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.031723 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.532898 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.762543 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.051098 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.311019 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.149038 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.555481 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.954868 has 2 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.08
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.35
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -48.347900 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -14.804810 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.551731 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.864468 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.166954 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.618462 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.035255 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.15
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.085518 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.083832 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.014442 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.428428 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.585466 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.776672 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.620087 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.793221 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.402878 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.409874 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.279818 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.570679 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.052456 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.208160 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.411294 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.425842 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.803307 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.969002 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.939569 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.505184 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.459656 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 2.93
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.787215 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.360508 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.326398 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.36
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.632423 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.423729 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.661462 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.690838 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.509590 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.100433 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.574116 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.726032 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.697941 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.885765 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.972450 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.768715 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -12.769333 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.625118 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.21
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.868179 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.445038 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.588890 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 38.391724 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.589706 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.461800 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.19
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.103516 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.175581 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.608131 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.803757 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.52
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.758339 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.57
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.488052 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.543629 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.335426 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.796188 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.03
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.445101 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.31
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.213787 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.431976 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.023985 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.097984 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.355301 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.555740 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.912125 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.598183 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 12.462479 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.242188 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.456039 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.214066 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.156052 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.77
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.738382 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.103806 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.590744 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.561483 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.900368 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.105194 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.365532 has 2 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.30
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.19
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.811451 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.906845 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.871193 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.222191 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.859653 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.948784 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.589958 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.214534 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.209152 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.106918 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.567472 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.953316 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.04
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.063872 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -16.411407 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.24
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.622375 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -34.987610 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -39.355408 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.567528 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.380997 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.727158 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.564194 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.093185 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.036047 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.308086 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.446831 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.280167 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.819523 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -87.684814 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.133012 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.879066 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.691181 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.402824 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.140198 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.402550 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.959801 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.350235 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.523182 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.067291 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.997604 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.730650 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.228168 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.760792 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.079689 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -11.266861 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.690041 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.507614 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.378799 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.751717 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.219818 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.178165 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.868851 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.282791 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.964966 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.961159 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.208138 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.610285 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.38
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.621855 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.808289 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.079445 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.76
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.112617 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.669352 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.736912 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.121857 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.239388 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.734173 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.237362 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.149963 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.727875 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.441299 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.07
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.528712 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.344437 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.83
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.020493 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.259587 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.20
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -14.049286 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.830437 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.862404 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.345726 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.378758 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.105560 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.298187 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.653877 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.285370 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.505981 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.676521 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.917282 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.705944 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.830172 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.679962 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.838936 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.067551 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.107550 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.547859 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.269028 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.126877 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.361366 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.227943 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.299187 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.70
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.480850 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.33
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.670105 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.455238 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.973183 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.881485 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.344170 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.286591 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.905409 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.802094 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -39.738892 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.681458 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.195839 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.641430 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.33
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.178684 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.271651 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.008198 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.61
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.566051 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.37
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.797958 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.443619 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.592815 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.268494 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.939995 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.897751 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.530206 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.806931 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.557816 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.255360 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.573502 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.297863 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.971066 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.008385 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.548717 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.019033 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.304611 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.96
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.917503 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.823647 has 2 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 35.88
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 9.61
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.405762 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 11.610092 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.551071 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -20.397644 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -81.573120 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.093597 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 15.179245 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -12.483002 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.792496 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.627403 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.002625 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.787979 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.182861 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.381775 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.989944 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.495590 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.894791 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.543930 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.754150 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.705444 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.40
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.994736 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.180320 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.850876 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.166389 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.656158 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.240925 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.602416 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.137114 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.673088 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.906815 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.482121 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.197105 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.370598 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.793488 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.664246 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.431202 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.754204 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.795609 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.132582 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.742714 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.032692 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -45.798828 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.465187 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.780577 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.119362 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.837288 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.353954 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.403572 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.434574 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.113228 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.873974 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.003845 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.008549 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.143402 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.775154 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.786880 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.856438 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.14
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.845186 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.295448 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.545765 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.978771 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.287394 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.690025 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.211517 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.818825 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.166962 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.818222 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.450356 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.832375 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.457443 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.444355 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.644281 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.046539 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.102058 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.815491 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.788380 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.084045 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.05
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.491943 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.718567 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.264206 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.33
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.003578 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.472824 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.621099 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.958710 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.467941 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.886177 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.569649 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.401917 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.383926 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.901558 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.811770 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.863258 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.18
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.542061 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.662155 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.81
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.255215 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 18.471100 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.203690 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.564186 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.220749 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.30
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.470612 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.374744 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.393959 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.894073 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.806412 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.207870 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.891220 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.638023 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -72.500610 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.761520 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.885872 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.008617 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.825287 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 4.95
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.972809 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.635696 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.444236 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.020081 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.389992 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.144272 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.069267 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.586456 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.303356 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.824722 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.618599 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.778049 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.248442 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.433769 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.537048 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.304016 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.527668 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -11.368820 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.857395 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.018936 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.999847 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.433212 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.387863 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.095619 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.143066 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.559502 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.51
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.428753 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.651733 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.605980 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.462906 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.615845 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 11.268250 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.07
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.838898 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.999306 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 58.571106 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.110573 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.543594 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.402328 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.412636 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.374664 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.905769 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.648289 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.254295 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.512443 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.212654 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.419700 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.450806 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 70.139648 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.316895 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.814651 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.063255 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.130554 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.541874 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.37
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 191.496338 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.428787 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.552536 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.544998 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.914940 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.702171 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.284649 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.45
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.812603 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.17
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.298058 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.182968 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.450474 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.216629 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.926224 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.842064 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.549032 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.551788 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.864403 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.825623 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.982590 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.018967 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -35.225891 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.100143 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.567844 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.616615 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.693283 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.819641 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.358589 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.225037 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.487736 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.946994 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.285255 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.437082 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.32
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.151104 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.363914 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.586700 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.619812 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.718575 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.765968 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.974754 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.93
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.320389 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.076382 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.901408 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.079712 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.278732 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.547493 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.329304 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.786507 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.956306 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -50.746765 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.067380 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.266350 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.154909 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.949638 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.342094 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.846247 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.171888 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.887830 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.344925 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.414364 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.860695 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.739922 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.681315 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.489418 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.703423 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.127838 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.925823 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.69
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.437950 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.369377 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.441493 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.692871 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.035492 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.469894 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.46
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.094780 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.06
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.347366 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.04
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -77.200806 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 18.806213 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.743542 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.461670 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.206650 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.129837 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.044594 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.518532 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -54.380859 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.666946 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.324051 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.587874 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.705070 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.760098 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.517979 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.514137 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.293362 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.891220 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.056076 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.216888 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.012634 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.39
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.858795 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.043152 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.788872 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.113678 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.088516 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.587898 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.618561 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.220673 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.041405 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.299606 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.374191 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.446648 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.73
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.627214 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.112457 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.057472 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.837536 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.901810 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.967743 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.257067 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.691414 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.470475 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.542139 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.549479 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.653637 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.426578 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.868721 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.547989 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.53
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.322662 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.550529 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.408592 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.137509 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.162856 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.631142 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.611038 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.926720 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 58.710815 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.302734 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.59
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.523438 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.879906 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.373215 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.263763 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.883352 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.003563 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.702736 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.928459 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.795242 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -12.067810 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.878363 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.782494 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.629642 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.099701 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.278656 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.851296 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.157135 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.182232 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.481705 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 11.768265 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.316154 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.458786 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.530205 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.040161 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.458374 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.07
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.512203 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.248924 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.823463 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.381012 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.384834 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.807783 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.882843 has 3 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.34
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.67
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.00
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.774643 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.126915 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.824310 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.345650 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.677505 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.971603 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.403206 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.82
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.234224 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.795322 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.386337 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.373711 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.442635 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.44
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.352674 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.341322 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.052256 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.552032 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.328651 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.695618 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.229537 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.328629 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.394699 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.037689 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.318954 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.325062 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.586456 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.948090 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.68
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.806103 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.572334 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.507171 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.195815 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.915131 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.641098 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.408730 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.393143 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.942410 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.615227 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.081932 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.076561 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -12.590912 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.454361 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 41.759033 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.067291 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.061127 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.080002 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.413391 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.178402 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.243668 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -11.955841 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.354370 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.411751 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 8.09
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.181061 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.448078 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.685683 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.229584 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.426798 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.519341 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.899662 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.770493 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.947882 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.735432 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.504768 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.303190 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.077759 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 37.876953 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.062454 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.625305 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.464479 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 14.254089 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.370201 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.77
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.761196 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 40.627014 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.781108 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.45
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.454826 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.686699 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.008278 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.544136 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.760017 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.751087 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.604593 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.933979 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.589386 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.030411 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.313126 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.198170 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.772285 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.848970 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.634140 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.447113 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.519939 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.388702 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.734390 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.025490 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.225014 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.750618 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.667053 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.633095 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.954849 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.644142 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.263130 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.409414 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.160762 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.330917 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -67.499756 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.267788 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.31
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.680650 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.389320 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.378056 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.791031 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.565605 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.168472 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.22
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.893089 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.259815 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.582741 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.904854 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.297115 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.600227 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.474831 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.100914 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.420753 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.585693 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.337776 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.469452 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.178795 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.48
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.691444 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.514626 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.423477 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.030457 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 2.83
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.337307 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.534950 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.609337 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.841003 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.639099 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.579178 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -12.097153 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.031333 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.657455 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.49
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.966217 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.856110 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.255417 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.306259 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.885223 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.287732 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.591042 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.730812 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.228577 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.512814 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.690765 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.252037 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.832352 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.686537 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.911224 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.213348 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.78
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.338494 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.741989 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.571545 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.503709 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.977477 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.085197 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.955597 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.553307 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.481985 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.249710 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.336700 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.373508 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.704145 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 40.698975 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -15.419662 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.057053 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -56.062744 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.159988 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.471951 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.696663 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.684273 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.205154 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.905529 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.500099 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.214951 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.100319 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.946091 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -11.052292 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.241573 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.962425 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.936897 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.857277 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.751839 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.425266 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.356865 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.037951 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.686394 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.733284 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.298622 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.648574 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.36
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.478767 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.762123 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.768295 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.067238 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.085752 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.861397 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.051987 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.067356 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.479122 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.154633 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.468475 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 13.237106 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.361000 has 2 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.41
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 2.07
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.900565 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.001640 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.588482 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 2.12
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.677040 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.547471 has 2 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 8.82
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.22
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.129456 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.158348 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.174026 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.10
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.408493 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.123230 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.197498 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.56
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.780109 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.640839 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.028992 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.220169 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.334595 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.687889 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.995457 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.808807 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.004608 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.654716 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.36
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.059204 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.44
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.315689 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.971664 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.024673 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.770363 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.149796 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.484879 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.062820 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.518478 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.982979 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.652008 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.257111 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.952892 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 3.11
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.983021 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.949730 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.767460 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.516093 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.480015 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.509880 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.65
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.078091 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -25.836426 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 3.11
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.879425 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.588097 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -36.717896 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.585182 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.846329 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.714684 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.576035 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.652206 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.900505 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.776253 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.789795 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.882942 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.998493 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.950397 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.487411 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.860592 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.837029 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.728981 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.183899 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.907265 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.746391 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.387981 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.627953 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.908623 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.011612 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.594849 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.573524 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -14.256271 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.702691 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.477737 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.823692 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.278656 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.664963 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.442381 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.271965 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.148861 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.310901 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.163002 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.996414 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.285332 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -11.186646 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.72
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.178463 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.331993 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.386650 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.330250 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.62
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.444923 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.531098 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.699741 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.977217 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.816429 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.495941 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.052498 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.940380 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.396225 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.125608 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.229980 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -19.262939 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.728130 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 32.062256 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.971252 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.286957 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.302460 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.817749 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.250381 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.717243 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.143650 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.362190 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.736870 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -56.236633 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 32.929871 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.557991 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.696793 has 2 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.42
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.01
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.745981 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.12
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.251389 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.152924 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.586563 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.480682 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.080059 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.941200 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.04
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.580536 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.725342 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.626923 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.149475 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.133415 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.070942 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.240974 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.072666 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.126701 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.646378 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.100433 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.252304 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.230780 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.123871 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.896301 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.912582 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.344120 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.330696 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.184280 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.420898 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.40
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.182739 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.279556 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.115738 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.291874 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.670813 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.428699 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.652153 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.146008 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.270557 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.764142 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.352386 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.081337 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.156437 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.754256 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.520107 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.532379 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.243301 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.256384 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.658681 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.14
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.796207 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.127502 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.166069 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.720764 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.360966 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.047758 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.615650 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.56
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -10.521240 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.023544 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.904182 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.826157 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.572372 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.491497 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.883575 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.052399 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -13.994293 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.000082 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.339569 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.204838 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.575890 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.550056 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.593462 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.167168 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.510193 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.977711 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.406273 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.794727 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.717018 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.831402 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.275818 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.313103 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.754292 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.842781 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 12.814484 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -26.096466 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.755547 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.283478 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.839134 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.436661 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.61
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.129715 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.534767 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.232224 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.347969 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.532242 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.521385 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.733994 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.548180 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.939575 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.367798 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.750969 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.892410 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.854294 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.728035 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.746315 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.498482 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.590942 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.195881 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.614427 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.908714 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.772585 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.863317 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.598660 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.309402 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.861702 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.915710 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.237732 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.159050 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.385544 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.452606 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -9.089005 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.319799 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.486061 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.265903 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 11.318710 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.513466 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.797482 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -21.876343 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.831642 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.503960 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.467484 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.399462 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.322697 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.701500 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.380219 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.774403 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.410522 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.652763 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.299519 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.708740 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.026253 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.570938 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.324100 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.42
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.418205 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.723083 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.64
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.641731 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.102478 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.256294 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.778366 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.957569 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.891121 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.33
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.702751 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.849556 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.641129 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.604294 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.063354 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.080200 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -11.149521 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.715523 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.952023 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.088394 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.385475 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.619095 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.639549 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.802139 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.387923 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.494827 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.698216 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.693422 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.830467 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.611496 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.597153 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.566841 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.532028 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.810043 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 8.251373 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.903534 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.670601 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.283569 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.383934 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.033541 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.963844 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.577522 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.519039 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.607719 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.483313 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.064316 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.819527 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.376822 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.744179 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.086075 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.57
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.459915 has 2 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.26
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 1.35
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.473473 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 9.534149 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -30.546295 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.074032 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -14.658600 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 15.249313 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 14.115753 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 22.717102 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -13.015488 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.689079 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 12.876053 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.110718 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 16.962769 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.171448 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.250893 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -8.899567 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.188309 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 7.724892 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.140923 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.991791 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -475.044922 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 2.916489 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.257542 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.265492 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.17
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.167286 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.866806 has 1 muons
+[11185:iterate-muons]: [09:45:44][INFO]   pT = 0.29
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.507342 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -7.232437 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.074802 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.065201 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.652962 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.718915 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.350227 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -52.239807 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.948586 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 6.345139 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.080421 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.397461 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 10.501022 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -4.046181 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.421227 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.561714 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.285633 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.812149 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.324032 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -0.625213 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.844868 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.820675 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -6.772667 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -2.346550 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -5.662834 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.483284 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.287018 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 5.429985 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 3.240646 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.734322 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 0.848663 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -1.637341 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.148842 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 4.219795 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = 1.623829 has 0 muons
+[11185:iterate-muons]: [09:45:44][INFO] Vertex = -3.164703 has 0 muons
+[11187:iterate-muons-sparse]: [09:45:44][INFO] BC without collision has 198 muons
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.55
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.33
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.22
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.02
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.25
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 17.61
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.35
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.47
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.77
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.36
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.42
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.59
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.31
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.54
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.41
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.90
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.24
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.19
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 5.19
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.34
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.60
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.29
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.31
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.82
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.83
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.50
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.80
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.69
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.38
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.47
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.41
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.78
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.46
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.69
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.08
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.52
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.90
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.23
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.97
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.51
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.66
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.73
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.11
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.70
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.49
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.26
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.26
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.29
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.57
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.32
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 2.84
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.50
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.42
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.16
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 121.38
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.76
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.35
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.31
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.80
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.47
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.59
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 4.56
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.28
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.37
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.83
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.36
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 6.10
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.22
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.72
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.53
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.39
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.35
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.95
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.47
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.20
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.74
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.56
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.31
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.10
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.27
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.19
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.60
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.43
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.79
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.35
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.15
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.36
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.70
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.65
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.58
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.69
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.88
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.16
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.26
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 2.86
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.70
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.50
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.94
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.08
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.35
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.15
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 2.93
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.36
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.21
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.19
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.52
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.57
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.03
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.31
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.77
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.30
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.19
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.04
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.24
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.38
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.76
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.07
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.83
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.20
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.70
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.33
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.33
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.61
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.37
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.96
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 35.88
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 9.61
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.40
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.14
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.05
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.33
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.18
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.81
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.30
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 4.95
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.51
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.07
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.37
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.17
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.32
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.93
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.69
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.46
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.06
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.04
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.39
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.73
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.53
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.59
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.07
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.34
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.67
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.00
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.82
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.44
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.68
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 8.09
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.77
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.31
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.22
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.48
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 2.83
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.49
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.78
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.36
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.41
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 2.07
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 2.12
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 8.82
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.22
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.10
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.56
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.36
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.44
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 3.11
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.65
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 3.11
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.72
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.62
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.42
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.01
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.12
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.04
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.40
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.14
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.56
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.61
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.42
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.64
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.33
+[11187:iterate-muons-sparse]: [09:45:44][INFO] BC without collision has 198 muons
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.55
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.33
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.22
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.02
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.25
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 17.61
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.35
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.47
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.77
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.36
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.42
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.59
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.31
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.54
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.41
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 1.90
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.24
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.19
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 5.19
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.34
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.60
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.29
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.31
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.82
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.83
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.50
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.80
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.69
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.45
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.38
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.47
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.41
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.78
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.46
+[11187:iterate-muons-sparse]: [09:45:44][INFO]   pT = 0.69
